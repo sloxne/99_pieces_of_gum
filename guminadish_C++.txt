@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+
+  
+  for (int i = 99; i > 0; i--) {
+  
+    std::cout << i << " pieces of gum in a dish.\n";
+    std::cout << "Take one out and pass it down.\n";
+    std::cout << i - 1 << " pieces of gum in a dish.\n\n";
+  
+  }
+  
+  std::cout << "No more pieces of gum in the dish!\n";
+  std::cout << "No more gum to pop.\n";
+  std::cout << "Go to the store, \npurchase some more,\n";
+  std::cout << "99 pieces of gum in a dish.\n";
+  
+}
